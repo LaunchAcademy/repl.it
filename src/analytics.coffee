@@ -6,7 +6,7 @@ $ = jQuery
 $.extend REPLIT,
   language_start_time: null
   InitAnalytics: ->
-    window._gaq.push ['_setAccount', 'UA-25629695-1']
+    window._gaq.push ['_setAccount', 'UA-39565137-8']
     window._gaq.push(['_setDomainName', 'none']);
     window._gaq.push(['_setAllowLinker', true]);
     window._gaq.push(['_trackPageview']);
