@@ -74,6 +74,7 @@ $.extend REPLIT,
       UndoManager = require("ace/undomanager").UndoManager
       session = new EditSession ''
       session.setUndoManager new UndoManager
+      session.setTabSize(2)
       ace_mode = @Languages[lang_name.toLowerCase()].ace_mode
       if ace_mode?
         # jQuery deferred object for getting ace mode.
